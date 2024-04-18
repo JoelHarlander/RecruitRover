@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "local-researcher"
+version = "0.1.0"
+description = "A oneshot researching agent locally and privately powered"
+authors = ["Joel Harlander"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+selenium = "^4.19.0"
+webdriver-manager = "^4.0.1"
+python-dotenv = "^1.0.1"
+autogen = "^1.0.16"
+streamlit = "^1.32.2"
+openai = "^1.14.3"
+langchain = "^0.1.14"
+tiktoken = "^0.6.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
